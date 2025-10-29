@@ -1,10 +1,9 @@
 /* === General Page Style === */
-
 body {
   background-color: #262733;
   color: white;
-  font-family: sans-serif;
   text-align: center;
+  margin: 0; 
 }
 
 /* === Links === */
@@ -15,25 +14,53 @@ a {
 
 a:hover {
   color: #ac30ff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-/* === Headings === */
-h1 {
-  color: #ff3030;
-  font-family: "Times New Roman", serif;
-  text-align: center;
-}
-
-li {
+/* === Texts and Images === */
+h2 {
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: 'Gill Sans MT';
   text-align: center;
-  display: inline;
-  margin-right: 20px;
+}
+
+p {
+  color: white;
+  font-family: 'Trebuchet MS';
 }
 
 img {
   display: block;
-  margin: 0 auto; /* optional: centers it */
+  margin: 0 auto;
+}
+
+/* === Navigation Bar === */
+.navbar {
+  background-color: #1a1b24;
+  padding: 15px 0;
+  width: 100%;
+  margin: 0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.nav a {
+  color: #ff3030;
+  font-family: "Gill Sans MT";
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #ac30ff;
+  text-decoration: none;
 }
